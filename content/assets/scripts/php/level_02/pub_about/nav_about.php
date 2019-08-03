@@ -1,0 +1,1 @@
+<h2 class='main2Title'><?php echo $site_header[1][2]; ?></h2>

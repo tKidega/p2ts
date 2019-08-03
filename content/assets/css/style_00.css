@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}html,body{
+	background-color: white;
+}html{
+	margin: 0 auto;
+	width: 99.9%;
+	height: 99.9%;
+}body{	
+	margin: 1px auto;
+	width: 90%;
+	min-width: 550px;
+	height: 99.5%;
+	min-height: 500px;
+	border: 1px solid white;
+}#site_header,#site_nav,#site_body,#site_footer{
+	border: 1px solid white;
+	margin: 1.5px auto;
+}#site_header{
+	width: 480px;
+	height: 125px;
+	border: 1px solid white;
+	}#site_logo,#site_emblem{
+		height: 120px;
+		border: 1px solid white;
+	}#site_logo{
+		margin: 1.5px 1px;
+		width: 85px;
+		position: absolute;
+		}#site_logo img{
+			margin: 0 auto;
+			width: 99.9%;
+	}#site_emblem{
+		margin: 1.5px 90px;
+		width: 455px;
+		}#site_banner,#site_slogan{
+			width: 453px;
+			border: 1px solid white;
+		}#site_banner{
+			margin: 5px auto;
+			height: 85px;
+			}#site_banner img{
+				margin: 0 auto;
+				width: 385px;
+				height: 85px;
+		}#site_slogan{
+			margin: 1.5px auto;
+			height: 25px;
+		}#site_slogan h1{
+			margin: 0 22px;
+			text-align: left;
+			text-transform: uppercase;
+			font-size: 1.15em;
+}#site_nav,#site_body,#site_footer{
+	width: 99.9%;
+}#site_nav{
+	height: 50px;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	}#fix_nav{
+		margin: 1.5px auto;
+		width: 500px;
+		height: 44px;
+		border: 1px solid white;
+	}#fix_nav h2{
+		margin-top: 10px;
+}#site_body{
+	height: 60%;
+	border: 1px solid white;
+	min-height: 375px;
+}#site_footer{
+	margin-top: 5px;
+	border-top: 1px solid white;
+	height: 50px;
+}/*
+Defining default font settings - Headings and Sub-Headings
+*/.mainTitle,.main2Title,.main3Title,.subTitle,.sub2Title,.sub3Title{
+	font-family: cambria,georgian,garamond,sarif;
+	font-weight: bolder;
+	color: rgba(65,65,65,0.8);
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	}.mainTitle{
+		font-size: 1.35em;
+	}.main2Title{
+		font-size: 1.25em;
+	}.main3Title{
+		font-size: 1.15em;
+	}.subTitle{
+		font-size: 0.95em;
+	}.sub2Title{
+		font-size: 0.85em;
+	}.sub3Title{
+		font-size: 0.75em;
+}/*
+Defining default font settings - In-text, content description	
+*/.txtDesc,.txt2Desc,.txt3Desc{
+	font-family: cambria,georgian,garamond,sarif;
+	color: rgba(65,65,65,0.8); 
+	text-align: justify;
+	}.txtDesc{
+		font-size: 0.9em;
+	}.txt2Desc{
+		font-size: 0.7em;
+	}.txt3Desc{
+		font-size: 0.5em;
+}/*
+Defining default internal link settings
+*/.intLink{
+	color: rgba(65,65,65,0.9);
+	text-decoration: none;
+	cursor: pointer;
+	text-decoration: none;
+}.intLink:hover{
+	color: rgba(0,128,255,0.9);
+	transition: 1.7s;
+}.intLink h2:hover{
+	color: rgba(0,128,255,0.85);
+	transition: all 1.75s;
+}.intLink h3:hover{
+	color: gold;
+	transition: all 1.75s;
+}
+	

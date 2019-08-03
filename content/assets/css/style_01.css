@@ -1,0 +1,222 @@
+/*
+Custom settings for the public home navigator
+*/#nav_pub{
+	margin: 1.5px -1px;
+	width: 350px;
+	height: 40px;
+	border: 1px solid white;
+}#nav_pub h2{
+	margin-top: 10px;
+	}#nav_pub h2:hover{
+		transition: all 1.7s;
+		color: silver;
+}#nav_pub ul{
+		margin: -1px -1px;
+		width: 350px;
+		height: 40px;
+		border: 1px solid white;
+		}#nav_pub ul li{
+			margin: -1px 1.5px;
+			width: 80px;
+			height: 38px;
+			border: 2px solid white;
+			border-radius: 5px;
+			float: right;
+			list-style-type: none;
+			}#nav_pub ul li.dud{
+				border: 2px solid white;
+			}#nav_pub ul li.dud:hover{
+				border: 2px solid white;
+				cursor: default;
+		}#nav_pub ul li:hover{
+			border: 2px solid gray;
+			cursor: pointer;
+			transition: all 1.7s;
+}#login_opt{
+	margin: 25px auto;
+	width: 500px;
+	height: 50%;
+	min-height: 425px;
+	border: 1px solid white;
+	}#sec_header,#login_form,#login_ass,#login_foot{
+		margin: 1.5px auto;
+		width: 99.9%;
+		border: 1px solid white;
+	}#sec_header{
+		height: 30px;
+	}#sec_header{
+		/*Can customize as required*/
+		}#sec_header h2.login_header{
+				text-align: center;
+				color: rgba(65,65,65,0.75);
+				margin-top: 3.5px;
+				text-transform: uppercase;
+				font-size: 1.15em;
+			}span[class^='dot_']{
+				margin-top: 5px;
+				color: rgba(65,65,65,0.4);
+				font-size: 0.95em;
+				opacity: 0;
+				}.dot_one{
+					animation: dot_one 2.5s infinite linear; 
+				}.dot_two{
+					animation: dot_one 3s infinite linear; 
+				}.dot_three{
+					animation: dot_one 3.5s infinite linear; 
+				}@keyframes dot_one{
+					 0%{
+						opacity: 0;
+					}15%{
+						opacity: 1;
+					}45%{
+						opacity: 1;
+					}100%{
+						opacity: 0;
+					}
+				}@keyframes dot_two{
+					 0%{
+						opacity: 0;
+					}25%{
+						opacity: 1;
+					}45%{
+						opacity: 1;
+					}100%{
+						opacity: 0;
+					}
+				}@keyframes dot_three{
+					 0%{
+						opacity: 0;
+					}45%{
+						opacity: 1;
+					}75%{
+						opacity: 1;
+					}100%{
+						opacity: 0;
+					}
+	}#login_form{
+		height: 150px;
+		border: 1px solid white;
+		}#login_form h2{
+			text-align: center;
+		}#login_form form{
+			margin: 1.5px auto;
+			width: 99.9%;
+			height: 180px;
+			border: 1px solid white;
+			}.opt_name{
+				margin: 2.5px 1px;
+				width: 75px;
+				height: 35px;
+				border: 1px solid white;
+				}.opt_name h3{
+					text-transform: none;
+					text-align: right;
+			}.opt_value{
+				margin: 2.5px 1px;
+				width: 420px;
+				height: 40px;
+				border: 1px solid white;
+			}.opt_value input{
+				width: 415px;
+				height: 39px;
+				border: 2px solid gray;
+				border-radius: 2.5px;
+				font-family: cambria,georgian,garamond,sarif;
+				font-size: 1.25em;
+				color: rgba(65,65,65,0.9);
+				text-indent: 1px;
+		}#frm_submit{
+			margin: -1.5px 2px;
+			width: 85px;
+			height: 55px;
+			border: 1px solid white;
+			float: right;
+			}#frm_submit input{
+				margin: 0 -1px;
+				width: 99.5%;
+				height: 99.5%;
+				border: 2.5px solid gray;
+				border-radius: 2.5px;
+				background-color: white;
+				font-family: cambria,georgian,garamond,sarif;
+				font-size: 0.95em;
+				text-transform: capitalize;
+				color: rgba(65,65,65,0.65);
+			}#frm_submit input:hover{
+				border: 2.5px solid silver;
+				cursor: pointer;
+				color: rgba(65,65,65,0.9);
+				transition: all 1.7s;
+	}#login_err{
+		margin: 2.5px -1px;
+		width: 99.9%;
+		height: 25px;
+		border: 1px solid white;
+		}#login_err h2{
+			margin-top: 2.5px;
+	}#login_ass{
+		margin-top: 25px;
+		height: 90px;
+		border: 1px solid white;
+		}#login_ass p{
+			margin-top: 5px;
+			text-align: center;
+	}#login_foot{
+		margin: 5px auto;
+		height: 35px;
+		border: 2px solid white;
+		border-radius: 2.5px;
+	}#login_foot h2{
+		margin-top: 1px;
+}/*
+Custom settings for the About Us page	
+*/.bio_about{
+	margin: 2.5px auto;
+	width: 50%;
+	min-width: 525px;
+	height: 215px;
+	border: 1px solid white;
+	}.bio_about_2{
+		margin: 2.5px auto;
+		width: 50%;
+		height: 100px;
+		border: 1px solid white;
+	}article[class^='bio_'], p.txtDesc{
+		margin-top: 5px;
+		color: default;
+		text-align: center;
+	}.bio_about_2 li{
+		list-style-type: none;
+	}.bio_about h2.sub3Title{
+		text-transform: none;
+		margin-top: 3px;
+}/*
+Custom settings for the Private Home Page 	
+*/#top_sec{
+	margin: 1.5px auto;
+	width: 85%;
+	min-width: 550px;
+	height: 20px;
+	border: 1px solid green;
+}#main_content{
+	margin: 1.5px auto;
+	width: 90%;
+	min-width: 900px;
+	height: 95.5%;
+	min-height: 465px;
+	border: 1px solid red;
+	}#aside_left{
+		margin: 1.5px 1.5px;
+		width: 480px;
+		height: 65%;
+		min-height: 500px;
+		border: 1px solid green;
+		position: absolute;
+	}#aside_right{
+		margin: 1.5px 1.5px;
+		width: 480px;
+		height: 95%;
+		min-height: 500px;
+		border: 1px solid green;
+		float: right;
+	}
